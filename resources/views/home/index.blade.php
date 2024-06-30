@@ -10,7 +10,9 @@
     <!-- NAVBAR -->
     
     @include('home.navbar')
+    <!-- Popupbutton-->
 
+    @include('home.popupbutton')
     <!-- BERANDA -->
     @include('home.beranda')
 

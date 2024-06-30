@@ -61,7 +61,7 @@
                             alt="Lokasi">
                         <div class="text-left d-flex flex-column align-items-start">
                             <h2 data-aos="fade-right" class="h5 mb-0 text-white">Lokasi</h2>
-                            <p data-aos="fade-right" class="mb-0 text-white" style="font-weight: 500; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Grand Hyatt Melbourne</p>
+                            <p data-aos="fade-right" class="mb-0 text-white" style="font-weight: 500; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Grand Hyatt Melbourne, Australia</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                 <div class="section-title">
-                    <h1 class="display-4 fw-semibold">Menteri Perdagangan</h1>
+                    <h1 class="display-4 fw-semibold">Arahan Menteri Perdagangan</h1>
                     <div class="line"></div>
                 </div>
             </div>
@@ -85,8 +85,11 @@
                 <img src="{{ asset('assets/images/mendag.jpg')}}" alt="" class="img-fluid" style="border-radius: 50px; width: 60%; margin-bottom: 10px;">
             </div>
             <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5 col-12 text-center text-lg-start">
-                <h1 style="margin-bottom: 10px;">DR. (H.C). Zulkifli Hasan, S.E., M.M.</h1>
-                <p class="mt-3 mb-4" style="font-size: 1rem;"> <i>Perwadag merupakan ujung tombak promosi produk Indonesia di luar negeri, adanya Rakornis Perwadag ini saya harap dapat menjadi ajang penguatan strategi perdagangan dan menjadi upaya peningkatan ekspor Indonesia di masa mendatang" </i> "- Mendag Zulkifli Hasan</p>
+                <h1 style="margin-bottom: 10px;"></h1>
+                <p class="mt-3 mb-4" style="font-size: 1.1rem; color: black;"> 
+                    <i>"Perwadag merupakan ujung tombak promosi produk Indonesia di luar negeri, adanya Rakornis Perwadag ini saya harap dapat menjadi ajang penguatan strategi perdagangan dan menjadi upaya peningkatan ekspor Indonesia di masa mendatang </i> 
+                    " - Mendag Zulkifli Hasan
+                </p>
             </div>
         </div>
     </div>
@@ -97,7 +100,7 @@
         <div class="row">
             <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                 <div class="section-title">
-                    <h1 class="display-4 fw-semibold">Sekretariat Jendral</h1>
+                    <h1 class="display-4 fw-semibold"> Sambutan Sekjen Kemendag</h1>
                     <div class="line"></div>
                 </div>
             </div>
@@ -107,8 +110,8 @@
                 <img src="{{ asset('assets/images/Sekjensuhanto.png')}}" alt="" class="img-fluid" style="border-radius: 50px; width: 75%; margin-bottom: 10px;">
             </div>
             <div data-aos="fade-down" data-aos-delay="150" class="col-lg-5 col-12 text-center text-lg-start">
-                <h1 style="margin-bottom: 10px;">Drs. Suhanto, M.M.</h1>
-                <p class="mt-3 mb-4" style="font-size: 1rem;"> <i>Rakornis Perwadag merupakan salah satu upaya Kemendag dalam meningkatkan kompetensi ekspor para wakil kami yang tersebar di berbagai negara, dimana nantinya para Perwadag akan makin kuat dalam mendampingi pelaku usaha menembus pasar ekspor." </i> "- Sekjen Suhanto</p>
+                <h1 style="margin-bottom: 10px;"></h1>
+                <p class="mt-3 mb-4" style="font-size: 1.1rem; color:black"> <i>Rakornis Perwadag merupakan salah satu upaya Kemendag dalam meningkatkan kompetensi ekspor para wakil kami yang tersebar di berbagai negara, dimana nantinya para Perwadag akan makin kuat dalam mendampingi pelaku usaha menembus pasar ekspor." </i> "- Sekjen Suhanto</p>
             </div>
         </div>
     </div>
@@ -150,7 +153,7 @@
             </span>
             <h2 class="text-white h1">Hitung Mundur Pembukaan Acara</h2>
             <p class="w-md-70 mx-auto text-white mb-0 lead">
-                11 Juni 2024 - 08:00 AM </p>
+                11 Juli 2024 - 08:00 AM </p>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
@@ -180,6 +183,71 @@
         </div>
     </div>
 </section>
+
+<div style="margin-top: 200px;"></div> <!-- Jeda antara section atas dan video -->
+<h1 style="text-align: center;">Video Teaser</h1>
+
+<div id="carouselVideoExample" data-mdb-carousel-init class="carousel slide carousel-fade" data-mdb-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-mdb-button-init data-mdb-target="#carouselVideoExample" data-mdb-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <video class="img-fluid" autoplay loop muted>
+        <source src="{{asset('assets/images/OPENING.mp4')}}" type="video/mp4" />
+      </video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p>
+          Opening Teaser Rakornis 2024
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls (optional, can be removed if not needed) -->
+  <button data-mdb-button-init class="carousel-control-prev" type="button" data-mdb-target="#carouselVideoExample"
+    data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button data-mdb-button-init class="carousel-control-next" type="button" data-mdb-target="#carouselVideoExample"
+    data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <style>
+  #carouselVideoExample {
+  width: 80%; /* Atur lebar sesuai kebutuhan */
+  margin: 30px auto; /* Center alignment dan margin atas-bawah untuk jeda */
+  border-radius: 15px; /* Atur border radius */
+  overflow: hidden; /* Untuk memastikan video terpotong dengan border radius */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; /* Optional for adding shadow */
+}
+
+#carouselVideoExample .carousel-inner {
+  border-radius: 15px; /* Border radius for inner content */
+}
+
+#carouselVideoExample video {
+  width: 100%;
+  height: auto; /* Atur tinggi sesuai kebutuhan */
+  border-radius: 15px; /* Border radius for video */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Jeda antara h1 dan carousel */
+}
+</style>
 
 <section id="sekitar" class="section-padding border-top">
     <div class="container">

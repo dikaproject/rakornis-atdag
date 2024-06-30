@@ -5,7 +5,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <a href="#"><img src="{{ asset('assets/images/logo.png')}}" alt=""></a>
                     <div class="line"></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, hic!
+                    <p>Akselerasi Kinerja Perwakilan Perdagangan di Luar Negeri Untuk
+                        Peningkatan Export Dalam Mencapai Indonesia Emas
                     </p>
                     <div class="social-icons">
                         <a href="#"><i class="ri-twitter-fill"></i></a>
